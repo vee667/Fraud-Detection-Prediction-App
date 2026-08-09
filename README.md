@@ -49,8 +49,44 @@ Accuracy: 94%
 
 However, fraud detection is an imbalanced classification problem, so accuracy should not be considered the only performance metric. Metrics such as precision, recall, F1-score, and confusion matrix are also important when evaluating a fraud detection system.
 
-🔮 Future Improvements
+📂 Project Structure
+Fraud-Detection/
+│
+├── analysis.ipynb
+├── dataset/
+│   └── dataset.csv
+├── README.md
+└── requirements.txt
 
+
+🚀 How to Run
+1. Clone the repository
+git clone https://github.com/your-username/Fraud-Detection.git
+cd Fraud-Detection
+2. Install the required libraries
+pip install pandas numpy scikit-learn matplotlib jupyter
+
+Or, if a requirements.txt file is included:
+
+pip install -r requirements.txt
+3. Run the Jupyter Notebook
+jupyter notebook
+
+Open the project notebook and run the cells sequentially.
+📈 Key Learnings
+
+Through this project, I gained practical experience in:
+
+Data preprocessing
+Exploratory data analysis
+Feature engineering
+Classification algorithms
+Model evaluation
+Handling real-world datasets
+Using Python for machine learning
+Understanding the challenges of fraud detection
+
+🔮 Future Improvements
 Some potential improvements for this project include:
 
 Experimenting with multiple classification algorithms
@@ -60,3 +96,5 @@ Comparing precision, recall, and F1-score across models
 Implementing cross-validation
 Building a real-time fraud prediction API
 Creating an interactive dashboard for fraud monitoring
+
+If you found this project useful, feel free to ⭐ the repository!
