@@ -61,8 +61,7 @@ Fraud-Detection/
 
 🚀 How to Run
 1. Clone the repository
-git clone https://github.com/your-username/Fraud-Detection.git
-cd Fraud-Detection
+
 2. Install the required libraries
 pip install pandas numpy scikit-learn matplotlib jupyter
 
